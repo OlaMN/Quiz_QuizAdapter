@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color> -->
+
+    <color name="colorPrimary">#42A5F4</color>
+    <color name="colorPrimaryDark">#0077C1</color>
+    <color name="colorPrimaryLight">#67DAFF</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="colorAccentDark">#C66900</color>
+    <color name="colorAccentLight">#FFC947</color>
+    <color name="colorGray">#61747E</color>
+
+    <color name="colorRadioGreen">#65ba69</color>
+    <color name="colorRadioRed">#EF5350</color>
+    <color name="colorRadioGray">#778F9B</color>
+    <color name="colorRadioWhite">#FFFFFF</color>
+
+
+
+</resources>

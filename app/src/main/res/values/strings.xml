@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="app_result">Result</string>
+
+    <string name="submitButton">Submit answer</string>
+    <string name="resultButton">Check your result</string>
+    <string name="onSubmitButton">Select answer!</string>
+    <string name="onResultButton">Select missing answers!</string>
+    <string name="yourResult">Your result is: \u0000 </string>
+    <string name="nmbCorrect">Number of correct answers: \u0000</string>
+    <string name="nmbWrong">Number of wrong answers: \u0000</string>
+
+    <string name="backButton">Press again to close</string>
+
+    <string name="question1">The Battle of Waterloo battle was fought on...</string>
+    <string name="answer1_1">June 16 1816</string>
+    <string name="answer1_2">June 17 1817</string>
+    <string name="answer1_3">June 18 1815</string>
+    <string name="correct1">0</string>
+
+    <string name="question2">The longest reign of British monarch is the one of...</string>
+    <string name="answer2_1">Queen Victoria</string>
+    <string name="answer2_2">Queen Elizabeth II</string>
+    <string name="answer2_3">King George VI</string>
+    <string name="correct2">1</string>
+
+    <string name="question3">Korean War was in years...</string>
+    <string name="answer3_1">1950-1953</string>
+    <string name="answer3_2">1950-1954</string>
+    <string name="answer3_3">1950-1955</string>
+    <string name="correct3">0</string>
+
+    <string name="question4">Who was the legendary leader of polish "Solidarity" union?</string>
+    <string name="answer4_1">Bronisław Geremek</string>
+    <string name="answer4_2">Tadeusz Mazowiecki</string>
+    <string name="answer4_3">Lech Wałęsa</string>
+    <string name="correct4">2</string>
+
+    <string name="question5">The attack on Pearl Harbor was a military strike by...</string>
+    <string name="answer5_1">the Royal Air Force</string>
+    <string name="answer5_2">the Luftwaffe</string>
+    <string name="answer5_3">the Imperial Japanese Navy Air Service</string>
+    <string name="correct5">2</string>
+
+    <string name="question6">Which singer-songwriter won the Literature Nobel Prize?</string>
+    <string name="answer6_1">Bono</string>
+    <string name="answer6_2">Bob Dylan</string>
+    <string name="answer6_3">Freddy Mercury</string>
+    <string name="correct6">1</string>
+
+    <string name="question7">When and where WWII was started?</string>
+    <string name="answer7_1">September 1 1939, Poland</string>
+    <string name="answer7_2">June 28 1914, Austria-Hungary</string>
+    <string name="answer7_3">June 21 1941, USSR</string>
+    <string name="correct7">0</string>
+
+    <string name="question8">John F. Kennedy was assassinated on...</string>
+    <string name="answer8_1">November 22 1962</string>
+    <string name="answer8_2">November 22 1964</string>
+    <string name="answer8_3">November 22 1963</string>
+    <string name="correct8">2</string>
+
+    <string name="question9">The fall of the Berlin wall began on...</string>
+    <string name="answer9_1">October 1989</string>
+    <string name="answer9_2">November 1989</string>
+    <string name="answer9_3">December 1989</string>
+    <string name="correct9">1</string>
+
+    <string name="question10">Who was the leader and founder of North Korea?</string>
+    <string name="answer10_1">Kim Jong-un</string>
+    <string name="answer10_2">Kim Jong-il</string>
+    <string name="answer10_3">Kim Il-sung</string>
+    <string name="correct10">2</string>
+
+</resources>
