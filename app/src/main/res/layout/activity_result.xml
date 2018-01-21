@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:paddingBottom="@dimen/item_padding_small"
             android:paddingLeft="@dimen/item_margin_standard"
-            android:paddingTop="@dimen/item_margin_standard"
+            android:paddingTop="@dimen/item_margin_small"
             android:src="@drawable/ic_empty" />
 
         <TextView
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:paddingBottom="@dimen/item_padding_small"
             android:paddingLeft="@dimen/item_margin_standard"
-            android:paddingTop="@dimen/item_margin_standard"
+            android:paddingTop="@dimen/item_margin_small"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
     </LinearLayout>
@@ -77,7 +77,7 @@
             android:id="@+id/tv_resultNOk"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingBottom="@dimen/item_margin_standard"
+            android:paddingBottom="@dimen/item_margin_small"
             android:paddingLeft="@dimen/item_margin_standard"
             android:paddingTop="@dimen/item_padding_small"
             android:textColor="@android:color/black"
