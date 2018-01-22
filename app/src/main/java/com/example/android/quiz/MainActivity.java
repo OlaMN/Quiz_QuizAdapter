@@ -78,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    
     /**
      * Save state on rotation
      */
