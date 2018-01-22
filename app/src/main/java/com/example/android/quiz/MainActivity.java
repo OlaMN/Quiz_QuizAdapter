@@ -13,7 +13,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
     int nmbAnswers = 0;
     private boolean isBackBtnPressed = false;
-    final ArrayList<QuizQuestion> question = new ArrayList<QuizQuestion>();
+    ArrayList<QuizQuestion> question = new ArrayList<QuizQuestion>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,4 +77,29 @@ public class MainActivity extends AppCompatActivity {
             }, 2000);
         }
     }
+
+    /**
+     * Save state on rotation
+     */
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putParcelableArrayList("questionArrayList", question);
+        super.onSaveInstanceState(outState);
+    }
+
+    /**
+     * Restore state after rotation
+     */
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        question = savedInstanceState.getParcelableArrayList("questionArrayList");
+
+        // QuizAdapter - custom ArrayAdapter
+        QuizAdapter itemsAdapter = new QuizAdapter(this, question);
+        ListView listView = (ListView) findViewById(R.id.listview_quiz);
+        listView.setAdapter(itemsAdapter);
+
+        }
 }
